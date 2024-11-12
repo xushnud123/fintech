@@ -1,50 +1,50 @@
-# Welcome to your Expo app 👋
+# React Native FinTech Clone with Clerk
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a React Native FinTech clone using [Clerk](https://go.clerk.com/tQXLCe8) for user authentication with OTP. This app was inspired by the [Revolut](https://www.revolut.com/) app.
 
-## Get started
+Additional features:
 
-1. Install dependencies
+- [Expo Router](https://docs.expo.dev/routing/introduction/) file-based navigation and API Routes
+- [SMS OTP](https://clerk.com/docs/custom-flows/email-sms-otp?utm_source=sponsorship&utm_medium=github&utm_campaign=simong&utm_content=rn-fintech) Auth with Clerk
+- [Reanimated](https://docs.swmansion.com/react-native-reanimated/) 3 for animations
+- [Gesture Handler](https://docs.swmansion.com/react-native-gesture-handler/) for gestures
+- [Zustand](https://zustand-demo.pmnd.rs/) and [MMKV](https://github.com/mrousavy/react-native-mmkv) for state management
+- [Victory Native XL](https://commerce.nearform.com/open-source/victory-native) for charts
+- [Zeego](https://zeego.dev/start) for native menus
+- [CoinMarketCap API](https://coinmarketcap.com/api/documentation/v1/) for crypto prices
 
-   ```bash
-   npm install
-   ```
+## Screenshots
 
-2. Start the app
+<div style="display: flex; flex-direction: 'row';">
+<img src="./screenshots/1.png" width=20%>
+<img src="./screenshots/2.png" width=20%>
+<img src="./screenshots/3.png" width=20%>
+<img src="./screenshots/4.png" width=20%>
+<img src="./screenshots/5.png" width=20%>
+<img src="./screenshots/6.png" width=20%>
+<img src="./screenshots/7.png" width=20%>
+<img src="./screenshots/8.png" width=20%>
+<img src="./screenshots/9.png" width=20%>
+<img src="./screenshots/10.png" width=20%>
+<img src="./screenshots/11.png" width=20%>
 
-   ```bash
-    npx expo start
-   ```
+</div>
 
-In the output, you'll find options to open the app in a
+## Demo
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+<div style="display: flex; flex-direction: 'row';">
+<img src="./screenshots/login.gif" width=30%>
+<img src="./screenshots/state.gif" width=30%>
+<img src="./screenshots/lockscreen.gif" width=30%>
+<img src="./screenshots/charts.gif" width=30%>
+<img src="./screenshots/icon.gif" width=30%>
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+</div>
 
-## Get a fresh project
+## 🚀 More
 
-When you're ready, run:
+**Take a shortcut from web developer to mobile development fluency with guided learning**
 
-```bash
-npm run reset-project
-```
+Enjoyed this project? Learn to use React Native to build production-ready, native mobile apps for both iOS and Android based on your existing web development skills.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<a href="https://galaxies.dev"><img src="banner.png" height="auto" width="100%"></a>
