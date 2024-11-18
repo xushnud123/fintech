@@ -8,7 +8,7 @@ import colors from "@/styles/colors";
 import { Link } from "expo-router";
 
 const CustomHeader = () => {
-  const {} = useUser();
+  const { user } = useUser();
   const { top } = useSafeAreaInsets();
 
   return (
@@ -22,7 +22,10 @@ const CustomHeader = () => {
       <View className='flex-row w-full gap-4 justify-center items-center h-[60px] bg-transparent px-5'>
         <Link href='/(authenticated)/(modals)/account' asChild>
           <TouchableOpacity className='size-10 rounded-[20px] bg-gray-300 justify-center items-center'>
-            <Text className='text-gray-900'>SG</Text>
+            <Text className='text-gray-900 font-robMed tracking-[0.5px]'>
+              {user?.firstName?.slice(0, 1)}
+              {user?.lastName?.slice(0, 1)}
+            </Text>
           </TouchableOpacity>
         </Link>
         <View className='flex-row gap-2 items-center border-gray-400 border rounded-[20px] px-[10px] flex-1 bg-gray-200'>

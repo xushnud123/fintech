@@ -24,7 +24,7 @@ enum SignInType {
 const Login = () => {
   const [form, setForm] = useState({ email: "", password: "" });
   const keyboardVerticalOffset = Platform.OS ? 90 : 0;
-  const { signIn } = useSignIn();
+  const { signIn, setActive } = useSignIn();
 
   const onSignIn = async (type: SignInType) => {
     if (type === SignInType.Phone) {
@@ -34,24 +34,12 @@ const Login = () => {
           password: form.password,
         });
 
-        const firstEmailFactor: any = response?.supportedFirstFactors?.find(
-          (factor) => factor.strategy === "email_code"
-        );
-
-        const { emailAddressId } = firstEmailFactor;
-
-        console.log("form ===", form, emailAddressId);
-
-        await signIn?.prepareFirstFactor({
-          strategy: "email_code",
-          emailAddressId,
-        });
-
+        await setActive!({ session: response?.createdSessionId });
         router.push({
-          pathname: "/verify/[email]",
-          params: { ...form, signin: "true" },
+          pathname: "/(authenticated)/(tabs)/home",
         });
       } catch (error: any) {
+        console.log(error);
         if (isClerkAPIResponseError(error)) {
           console.error(error);
         } else {

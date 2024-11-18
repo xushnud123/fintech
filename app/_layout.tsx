@@ -66,14 +66,11 @@ const InitialLayout = () => {
     if (!isInitialRender.current) {
       if (isSignedIn && !inAuthGroup) {
         router.replace("/(authenticated)/(tabs)/home");
-        // router.replace("/(authenticated)/(modals)/lock");
       } else if (!isSignedIn) {
         router.replace("/");
       }
     }
   }, [isSignedIn]);
-
-  console.log(isSignedIn);
 
   if (!isLoaded) {
     return (
