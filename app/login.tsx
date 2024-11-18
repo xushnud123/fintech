@@ -22,7 +22,7 @@ enum SignInType {
 }
 
 const Login = () => {
-  const [form, setForm] = useState({ email: "", password: "", username: "" });
+  const [form, setForm] = useState({ email: "", password: "" });
   const keyboardVerticalOffset = Platform.OS ? 90 : 0;
   const { signIn } = useSignIn();
 
@@ -34,11 +34,13 @@ const Login = () => {
           password: form.password,
         });
 
-        const firstPhoneFactor: any = response?.supportedFirstFactors?.find(
+        const firstEmailFactor: any = response?.supportedFirstFactors?.find(
           (factor) => factor.strategy === "email_code"
         );
 
-        const { emailAddressId } = firstPhoneFactor;
+        const { emailAddressId } = firstEmailFactor;
+
+        console.log("form ===", form, emailAddressId);
 
         await signIn?.prepareFirstFactor({
           strategy: "email_code",
@@ -70,24 +72,6 @@ const Login = () => {
         <Text className={defaultStyles.descriptionText}>
           Enter the phone number associated with your account
         </Text>
-        {/* <View className='w-full flex-row mt-4 mb-6 gap-2'>
-          <TextInput
-            className='bg-lightGray items-center p-5 text-xl leading-[22px] rounded-2xl'
-            placeholder='Country code'
-            placeholderTextColor='rgba(98, 109, 119,0.6)'
-            keyboardType='numeric'
-            value={countryCode}
-            onChangeText={setCountryCode}
-          />
-          <TextInput
-            className='bg-lightGray flex-1 items-center p-5 text-xl leading-[22px] rounded-2xl'
-            placeholderTextColor='rgba(98, 109, 119,0.6)'
-            placeholder='Mobile number'
-            keyboardType='numeric'
-            value={phoneNumber}
-            onChangeText={setPhoneNumber}
-          />
-        </View> */}
 
         <Text className={defaultStyles.descriptionText}>Email</Text>
         <View className='w-full flex-row mt-2 gap-2'>
@@ -116,30 +100,18 @@ const Login = () => {
           className={cn(
             defaultStyles.pillButton,
             "mt-5 bg-dark",
-            !!form.email && !!form.password && !!form.username
-              ? "bg-primary"
-              : "bg-primaryMuted"
+            !!form.email && !!form.password
+              ? "bg-framPurple-600"
+              : "bg-framPurple-300"
           )}
         >
           <Text className={defaultStyles.buttonText}>Continue</Text>
         </TouchableOpacity>
         <View className='flex-row items-center gap-4 mt-4'>
-          <View className='flex-1 h-[1px] bg-gray' />
-          <Text className='text-gray text-xl'>or</Text>
-          <View className='flex-1 h-[1px] bg-gray' />
+          <View className='flex-1 h-[1px] bg-gray-400' />
+          <Text className='text-gray-400 text-xl'>or</Text>
+          <View className='flex-1 h-[1px] bg-gray-400' />
         </View>
-        {/* <TouchableOpacity
-          onPress={() => onSignIn(SignInType.Email)}
-          className={cn(
-            defaultStyles.pillButton,
-            "flex-row gap-4 mt-5 bg-white"
-          )}
-        >
-          <Ionicons name='mail' size={24} color={"#000"} />
-          <Text className={cn(defaultStyles.buttonText, "text-black")}>
-            Continue with email
-          </Text>
-        </TouchableOpacity> */}
         <TouchableOpacity
           onPress={() => onSignIn(SignInType.Google)}
           className={cn(

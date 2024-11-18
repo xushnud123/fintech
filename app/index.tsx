@@ -32,17 +32,7 @@ const Index = () => {
           Ready to change the way you money?
         </Text>
       </View>
-      <Link
-        href='/(authenticated)/(tabs)/home'
-        asChild
-        className={cn("bg-dark", defaultStyles.pillButton)}
-      >
-        <TouchableOpacity>
-          <Text className='text-2xl font-medium text-white text-center'>
-            home
-          </Text>
-        </TouchableOpacity>
-      </Link>
+
       <View className='flex-row gap-5 mb-[60px] px-5 justify-center'>
         <Link
           href={"/login"}

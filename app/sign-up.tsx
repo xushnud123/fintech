@@ -97,8 +97,8 @@ const SignUp = () => {
             defaultStyles.pillButton,
             "mt-5 bg-dark",
             !!form.email && !!form.password && !!form.username
-              ? "bg-primary"
-              : "bg-primaryMuted"
+              ? "bg-framPurple-700"
+              : "bg-framPurple-200"
           )}
         >
           <Text className={defaultStyles.buttonText}>Sign up</Text>

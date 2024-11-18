@@ -1,0 +1,2376 @@
+{
+  "plainStyle": {
+    "color": {
+      "White": {
+        "name": "White",
+        "type": "SOLID",
+        "blendMode": "NORMAL",
+        "description": "",
+        "rgb": "rgb(255,255,255)",
+        "hex": "#ffffff",
+        "opacity": 1,
+        "hex8": "#ffffffff"
+      },
+      "Black": {
+        "name": "Black",
+        "type": "SOLID",
+        "blendMode": "NORMAL",
+        "description": "",
+        "rgb": "rgb(0,0,0)",
+        "hex": "#000000",
+        "opacity": 1,
+        "hex8": "#000000ff"
+      },
+      "Gray": {
+        "25": {
+          "name": "Gray/25",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(252,252,253)",
+          "hex": "#fcfcfd",
+          "opacity": 1,
+          "hex8": "#fcfcfdff"
+        },
+        "50": {
+          "name": "Gray/50",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(249,250,251)",
+          "hex": "#f9fafb",
+          "opacity": 1,
+          "hex8": "#f9fafbff"
+        },
+        "100": {
+          "name": "Gray/100",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(242,244,247)",
+          "hex": "#f2f4f7",
+          "opacity": 1,
+          "hex8": "#f2f4f7ff"
+        },
+        "200": {
+          "name": "Gray/200",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(228,231,236)",
+          "hex": "#e4e7ec",
+          "opacity": 1,
+          "hex8": "#e4e7ecff"
+        },
+        "300": {
+          "name": "Gray/300",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(208,213,221)",
+          "hex": "#d0d5dd",
+          "opacity": 1,
+          "hex8": "#d0d5ddff"
+        },
+        "400": {
+          "name": "Gray/400",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(152,162,179)",
+          "hex": "#98a2b3",
+          "opacity": 1,
+          "hex8": "#98a2b3ff"
+        },
+        "500": {
+          "name": "Gray/500",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(102,112,133)",
+          "hex": "#667085",
+          "opacity": 1,
+          "hex8": "#667085ff"
+        },
+        "600": {
+          "name": "Gray/600",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(71,84,103)",
+          "hex": "#475467",
+          "opacity": 1,
+          "hex8": "#475467ff"
+        },
+        "700": {
+          "name": "Gray/700",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(52,64,84)",
+          "hex": "#344054",
+          "opacity": 1,
+          "hex8": "#344054ff"
+        },
+        "800": {
+          "name": "Gray/800",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(29,41,57)",
+          "hex": "#1d2939",
+          "opacity": 1,
+          "hex8": "#1d2939ff"
+        },
+        "900": {
+          "name": "Gray/900",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(16,24,40)",
+          "hex": "#101828",
+          "opacity": 1,
+          "hex8": "#101828ff"
+        }
+      },
+      "Primary": {
+        "25": {
+          "name": "Primary/25",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(245,254,248)",
+          "hex": "#f5fef8",
+          "opacity": 1,
+          "hex8": "#f5fef8ff"
+        },
+        "50": {
+          "name": "Primary/50",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(234,254,241)",
+          "hex": "#eafef1",
+          "opacity": 1,
+          "hex8": "#eafef1ff"
+        },
+        "100": {
+          "name": "Primary/100",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(200,249,232)",
+          "hex": "#c8f9e8",
+          "opacity": 1,
+          "hex8": "#c8f9e8ff"
+        },
+        "200": {
+          "name": "Primary/200",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(148,243,218)",
+          "hex": "#94f3da",
+          "opacity": 1,
+          "hex8": "#94f3daff"
+        },
+        "300": {
+          "name": "Primary/300",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(91,220,198)",
+          "hex": "#5bdcc6",
+          "opacity": 1,
+          "hex8": "#5bdcc6ff"
+        },
+        "400": {
+          "name": "Primary/400",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(49,186,174)",
+          "hex": "#31baae",
+          "opacity": 1,
+          "hex8": "#31baaeff"
+        },
+        "500": {
+          "name": "Primary/500",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(3,140,140)",
+          "hex": "#038c8c",
+          "opacity": 1,
+          "hex8": "#038c8cff"
+        },
+        "600": {
+          "name": "Primary/600",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(2,110,120)",
+          "hex": "#026e78",
+          "opacity": 1,
+          "hex8": "#026e78ff"
+        },
+        "700": {
+          "name": "Primary/700",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(1,83,100)",
+          "hex": "#015364",
+          "opacity": 1,
+          "hex8": "#015364ff"
+        },
+        "800": {
+          "name": "Primary/800",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(0,60,81)",
+          "hex": "#003c51",
+          "opacity": 1,
+          "hex8": "#003c51ff"
+        },
+        "900": {
+          "name": "Primary/900",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(0,44,67)",
+          "hex": "#002c43",
+          "opacity": 1,
+          "hex8": "#002c43ff"
+        }
+      },
+      "Error": {
+        "25": {
+          "name": "Error/25",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(255,252,250)",
+          "hex": "#fffcfa",
+          "opacity": 1,
+          "hex8": "#fffcfaff"
+        },
+        "50": {
+          "name": "Error/50",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(255,244,239)",
+          "hex": "#fff4ef",
+          "opacity": 1,
+          "hex8": "#fff4efff"
+        },
+        "100": {
+          "name": "Error/100",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(255,229,214)",
+          "hex": "#ffe5d6",
+          "opacity": 1,
+          "hex8": "#ffe5d6ff"
+        },
+        "200": {
+          "name": "Error/200",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(255,196,173)",
+          "hex": "#ffc4ad",
+          "opacity": 1,
+          "hex8": "#ffc4adff"
+        },
+        "300": {
+          "name": "Error/300",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(255,157,131)",
+          "hex": "#ff9d83",
+          "opacity": 1,
+          "hex8": "#ff9d83ff"
+        },
+        "400": {
+          "name": "Error/400",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(255,119,101)",
+          "hex": "#ff7765",
+          "opacity": 1,
+          "hex8": "#ff7765ff"
+        },
+        "500": {
+          "name": "Error/500",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(255,57,50)",
+          "hex": "#ff3932",
+          "opacity": 1,
+          "hex8": "#ff3932ff"
+        },
+        "600": {
+          "name": "Error/600",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(219,36,45)",
+          "hex": "#db242d",
+          "opacity": 1,
+          "hex8": "#db242dff"
+        },
+        "700": {
+          "name": "Error/700",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(183,25,46)",
+          "hex": "#b7192e",
+          "opacity": 1,
+          "hex8": "#b7192eff"
+        },
+        "800": {
+          "name": "Error/800",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(147,15,44)",
+          "hex": "#930f2c",
+          "opacity": 1,
+          "hex8": "#930f2cff"
+        },
+        "900": {
+          "name": "Error/900",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(122,9,43)",
+          "hex": "#7a092b",
+          "opacity": 1,
+          "hex8": "#7a092bff"
+        }
+      },
+      "Warning": {
+        "25": {
+          "name": "Warning/25",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(255,252,245)",
+          "hex": "#fffcf5",
+          "opacity": 1,
+          "hex8": "#fffcf5ff"
+        },
+        "50": {
+          "name": "Warning/50",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(255,250,235)",
+          "hex": "#fffaeb",
+          "opacity": 1,
+          "hex8": "#fffaebff"
+        },
+        "100": {
+          "name": "Warning/100",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(254,240,199)",
+          "hex": "#fef0c7",
+          "opacity": 1,
+          "hex8": "#fef0c7ff"
+        },
+        "200": {
+          "name": "Warning/200",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(254,223,137)",
+          "hex": "#fedf89",
+          "opacity": 1,
+          "hex8": "#fedf89ff"
+        },
+        "300": {
+          "name": "Warning/300",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(254,200,75)",
+          "hex": "#fec84b",
+          "opacity": 1,
+          "hex8": "#fec84bff"
+        },
+        "400": {
+          "name": "Warning/400",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(253,176,34)",
+          "hex": "#fdb022",
+          "opacity": 1,
+          "hex8": "#fdb022ff"
+        },
+        "500": {
+          "name": "Warning/500",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(247,144,9)",
+          "hex": "#f79009",
+          "opacity": 1,
+          "hex8": "#f79009ff"
+        },
+        "600": {
+          "name": "Warning/600",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(220,104,3)",
+          "hex": "#dc6803",
+          "opacity": 1,
+          "hex8": "#dc6803ff"
+        },
+        "700": {
+          "name": "Warning/700",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(181,71,8)",
+          "hex": "#b54708",
+          "opacity": 1,
+          "hex8": "#b54708ff"
+        },
+        "800": {
+          "name": "Warning/800",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(147,55,13)",
+          "hex": "#93370d",
+          "opacity": 1,
+          "hex8": "#93370dff"
+        },
+        "900": {
+          "name": "Warning/900",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(122,46,14)",
+          "hex": "#7a2e0e",
+          "opacity": 1,
+          "hex8": "#7a2e0eff"
+        }
+      },
+      "Success": {
+        "25": {
+          "name": "Success/25",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(249,255,239)",
+          "hex": "#f9ffef",
+          "opacity": 1,
+          "hex8": "#f9ffefff"
+        },
+        "50": {
+          "name": "Success/50",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(236,251,211)",
+          "hex": "#ecfbd3",
+          "opacity": 1,
+          "hex8": "#ecfbd3ff"
+        },
+        "100": {
+          "name": "Success/100",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(230,251,199)",
+          "hex": "#e6fbc7",
+          "opacity": 1,
+          "hex8": "#e6fbc7ff"
+        },
+        "200": {
+          "name": "Success/200",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(214,247,169)",
+          "hex": "#d6f7a9",
+          "opacity": 1,
+          "hex8": "#d6f7a9ff"
+        },
+        "300": {
+          "name": "Success/300",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(180,232,123)",
+          "hex": "#b4e87b",
+          "opacity": 1,
+          "hex8": "#b4e87bff"
+        },
+        "400": {
+          "name": "Success/400",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(143,210,86)",
+          "hex": "#8fd256",
+          "opacity": 1,
+          "hex8": "#8fd256ff"
+        },
+        "500": {
+          "name": "Success/500",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(96,181,39)",
+          "hex": "#60b527",
+          "opacity": 1,
+          "hex8": "#60b527ff"
+        },
+        "600": {
+          "name": "Success/600",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(72,155,28)",
+          "hex": "#489b1c",
+          "opacity": 1,
+          "hex8": "#489b1cff"
+        },
+        "700": {
+          "name": "Success/700",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(51,130,19)",
+          "hex": "#338213",
+          "opacity": 1,
+          "hex8": "#338213ff"
+        },
+        "800": {
+          "name": "Success/800",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(33,104,12)",
+          "hex": "#21680c",
+          "opacity": 1,
+          "hex8": "#21680cff"
+        },
+        "900": {
+          "name": "Success/900",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(20,86,7)",
+          "hex": "#145607",
+          "opacity": 1,
+          "hex8": "#145607ff"
+        }
+      },
+      "Fram Purple": {
+        "25": {
+          "name": "Fram Purple/25",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(251,251,254)",
+          "hex": "#fbfbfe",
+          "opacity": 1,
+          "hex8": "#fbfbfeff"
+        },
+        "50": {
+          "name": "Fram Purple/50",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(235,235,249)",
+          "hex": "#ebebf9",
+          "opacity": 1,
+          "hex8": "#ebebf9ff"
+        },
+        "100": {
+          "name": "Fram Purple/100",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(227,226,252)",
+          "hex": "#e3e2fc",
+          "opacity": 1,
+          "hex8": "#e3e2fcff"
+        },
+        "200": {
+          "name": "Fram Purple/200",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(199,198,250)",
+          "hex": "#c7c6fa",
+          "opacity": 1,
+          "hex8": "#c7c6faff"
+        },
+        "300": {
+          "name": "Fram Purple/300",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(168,166,242)",
+          "hex": "#a8a6f2",
+          "opacity": 1,
+          "hex8": "#a8a6f2ff"
+        },
+        "400": {
+          "name": "Fram Purple/400",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(141,140,229)",
+          "hex": "#8d8ce5",
+          "opacity": 1,
+          "hex8": "#8d8ce5ff"
+        },
+        "500": {
+          "name": "Fram Purple/500",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(104,102,212)",
+          "hex": "#6866d4",
+          "opacity": 1,
+          "hex8": "#6866d4ff"
+        },
+        "600": {
+          "name": "Fram Purple/600",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(76,74,182)",
+          "hex": "#4c4ab6",
+          "opacity": 1,
+          "hex8": "#4c4ab6ff"
+        },
+        "700": {
+          "name": "Fram Purple/700",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(52,51,152)",
+          "hex": "#343398",
+          "opacity": 1,
+          "hex8": "#343398ff"
+        },
+        "800": {
+          "name": "Fram Purple/800",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(33,32,122)",
+          "hex": "#21207a",
+          "opacity": 1,
+          "hex8": "#21207aff"
+        },
+        "900": {
+          "name": "Fram Purple/900",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(20,19,101)",
+          "hex": "#141365",
+          "opacity": 1,
+          "hex8": "#141365ff"
+        }
+      },
+      "Sea Green": {
+        "25": {
+          "name": "Sea Green/25",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(234,254,235)",
+          "hex": "#eafeeb",
+          "opacity": 1,
+          "hex8": "#eafeebff"
+        },
+        "50": {
+          "name": "Sea Green/50",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(223,255,227)",
+          "hex": "#dfffe3",
+          "opacity": 1,
+          "hex8": "#dfffe3ff"
+        },
+        "100": {
+          "name": "Sea Green/100",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(202,251,218)",
+          "hex": "#cafbda",
+          "opacity": 1,
+          "hex8": "#cafbdaff"
+        },
+        "200": {
+          "name": "Sea Green/200",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(151,248,192)",
+          "hex": "#97f8c0",
+          "opacity": 1,
+          "hex8": "#97f8c0ff"
+        },
+        "300": {
+          "name": "Sea Green/300",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(97,235,169)",
+          "hex": "#61eba9",
+          "opacity": 1,
+          "hex8": "#61eba9ff"
+        },
+        "400": {
+          "name": "Sea Green/400",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(57,216,156)",
+          "hex": "#39d89c",
+          "opacity": 1,
+          "hex8": "#39d89cff"
+        },
+        "500": {
+          "name": "Sea Green/500",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(4,191,138)",
+          "hex": "#04bf8a",
+          "opacity": 1,
+          "hex8": "#04bf8aff"
+        },
+        "600": {
+          "name": "Sea Green/600",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(2,164,134)",
+          "hex": "#02a486",
+          "opacity": 1,
+          "hex8": "#02a486ff"
+        },
+        "700": {
+          "name": "Sea Green/700",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(2,137,125)",
+          "hex": "#02897d",
+          "opacity": 1,
+          "hex8": "#02897dff"
+        },
+        "800": {
+          "name": "Sea Green/800",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(1,109,110)",
+          "hex": "#016d6e",
+          "opacity": 1,
+          "hex8": "#016d6eff"
+        },
+        "900": {
+          "name": "Sea Green/900",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(0,82,91)",
+          "hex": "#00525b",
+          "opacity": 1,
+          "hex8": "#00525bff"
+        }
+      },
+      "Horizon Blue": {
+        "25": {
+          "name": "Horizon Blue/25",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(241,255,246)",
+          "hex": "#f1fff6",
+          "opacity": 1,
+          "hex8": "#f1fff6ff"
+        },
+        "50": {
+          "name": "Horizon Blue/50",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(228,255,240)",
+          "hex": "#e4fff0",
+          "opacity": 1,
+          "hex8": "#e4fff0ff"
+        },
+        "100": {
+          "name": "Horizon Blue/100",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(206,254,237)",
+          "hex": "#cefeed",
+          "opacity": 1,
+          "hex8": "#cefeedff"
+        },
+        "200": {
+          "name": "Horizon Blue/200",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(157,253,228)",
+          "hex": "#9dfde4",
+          "opacity": 1,
+          "hex8": "#9dfde4ff"
+        },
+        "300": {
+          "name": "Horizon Blue/300",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(107,251,226)",
+          "hex": "#6bfbe2",
+          "opacity": 1,
+          "hex8": "#6bfbe2ff"
+        },
+        "400": {
+          "name": "Horizon Blue/400",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(70,247,231)",
+          "hex": "#46f7e7",
+          "opacity": 1,
+          "hex8": "#46f7e7ff"
+        },
+        "500": {
+          "name": "Horizon Blue/500",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(12,242,242)",
+          "hex": "#0cf2f2",
+          "opacity": 1,
+          "hex8": "#0cf2f2ff"
+        },
+        "600": {
+          "name": "Horizon Blue/600",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(8,190,208)",
+          "hex": "#08bed0",
+          "opacity": 1,
+          "hex8": "#08bed0ff"
+        },
+        "700": {
+          "name": "Horizon Blue/700",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(6,145,174)",
+          "hex": "#0691ae",
+          "opacity": 1,
+          "hex8": "#0691aeff"
+        },
+        "800": {
+          "name": "Horizon Blue/800",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(3,104,140)",
+          "hex": "#03688c",
+          "opacity": 1,
+          "hex8": "#03688cff"
+        },
+        "900": {
+          "name": "Horizon Blue/900",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(2,76,116)",
+          "hex": "#024c74",
+          "opacity": 1,
+          "hex8": "#024c74ff"
+        }
+      },
+      "Purple": {
+        "25": {
+          "name": "Purple/25",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(250,250,255)",
+          "hex": "#fafaff",
+          "opacity": 1,
+          "hex8": "#fafaffff"
+        },
+        "50": {
+          "name": "Purple/50",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(244,243,255)",
+          "hex": "#f4f3ff",
+          "opacity": 1,
+          "hex8": "#f4f3ffff"
+        },
+        "100": {
+          "name": "Purple/100",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(235,233,254)",
+          "hex": "#ebe9fe",
+          "opacity": 1,
+          "hex8": "#ebe9feff"
+        },
+        "200": {
+          "name": "Purple/200",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(217,214,254)",
+          "hex": "#d9d6fe",
+          "opacity": 1,
+          "hex8": "#d9d6feff"
+        },
+        "300": {
+          "name": "Purple/300",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(189,180,254)",
+          "hex": "#bdb4fe",
+          "opacity": 1,
+          "hex8": "#bdb4feff"
+        },
+        "400": {
+          "name": "Purple/400",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(155,138,251)",
+          "hex": "#9b8afb",
+          "opacity": 1,
+          "hex8": "#9b8afbff"
+        },
+        "500": {
+          "name": "Purple/500",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(122,90,248)",
+          "hex": "#7a5af8",
+          "opacity": 1,
+          "hex8": "#7a5af8ff"
+        },
+        "600": {
+          "name": "Purple/600",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(105,56,239)",
+          "hex": "#6938ef",
+          "opacity": 1,
+          "hex8": "#6938efff"
+        },
+        "700": {
+          "name": "Purple/700",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(89,37,220)",
+          "hex": "#5925dc",
+          "opacity": 1,
+          "hex8": "#5925dcff"
+        },
+        "800": {
+          "name": "Purple/800",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(74,31,184)",
+          "hex": "#4a1fb8",
+          "opacity": 1,
+          "hex8": "#4a1fb8ff"
+        },
+        "900": {
+          "name": "Purple/900",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(62,28,150)",
+          "hex": "#3e1c96",
+          "opacity": 1,
+          "hex8": "#3e1c96ff"
+        }
+      },
+      "Indigo": {
+        "25": {
+          "name": "Indigo/25",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(234,250,254)",
+          "hex": "#eafafe",
+          "opacity": 1,
+          "hex8": "#eafafeff"
+        },
+        "50": {
+          "name": "Indigo/50",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(213,242,253)",
+          "hex": "#d5f2fd",
+          "opacity": 1,
+          "hex8": "#d5f2fdff"
+        },
+        "100": {
+          "name": "Indigo/100",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(198,228,246)",
+          "hex": "#c6e4f6",
+          "opacity": 1,
+          "hex8": "#c6e4f6ff"
+        },
+        "200": {
+          "name": "Indigo/200",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(145,198,238)",
+          "hex": "#91c6ee",
+          "opacity": 1,
+          "hex8": "#91c6eeff"
+        },
+        "300": {
+          "name": "Indigo/300",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(84,148,205)",
+          "hex": "#5494cd",
+          "opacity": 1,
+          "hex8": "#5494cdff"
+        },
+        "400": {
+          "name": "Indigo/400",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(41,96,155)",
+          "hex": "#29609b",
+          "opacity": 1,
+          "hex8": "#29609bff"
+        },
+        "500": {
+          "name": "Indigo/500",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(2,40,89)",
+          "hex": "#022859",
+          "opacity": 1,
+          "hex8": "#022859ff"
+        },
+        "600": {
+          "name": "Indigo/600",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(1,30,76)",
+          "hex": "#011e4c",
+          "opacity": 1,
+          "hex8": "#011e4cff"
+        },
+        "700": {
+          "name": "Indigo/700",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(1,22,64)",
+          "hex": "#011640",
+          "opacity": 1,
+          "hex8": "#011640ff"
+        },
+        "800": {
+          "name": "Indigo/800",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(0,16,51)",
+          "hex": "#001033",
+          "opacity": 1,
+          "hex8": "#001033ff"
+        },
+        "900": {
+          "name": "Indigo/900",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(0,11,42)",
+          "hex": "#000b2a",
+          "opacity": 1,
+          "hex8": "#000b2aff"
+        }
+      },
+      "Night Sky": {
+        "25": {
+          "name": "Night Sky/25",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(252,252,253)",
+          "hex": "#fcfcfd",
+          "opacity": 1,
+          "hex8": "#fcfcfdff"
+        },
+        "50": {
+          "name": "Night Sky/50",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(239,240,249)",
+          "hex": "#eff0f9",
+          "opacity": 1,
+          "hex8": "#eff0f9ff"
+        },
+        "100": {
+          "name": "Night Sky/100",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(231,235,251)",
+          "hex": "#e7ebfb",
+          "opacity": 1,
+          "hex8": "#e7ebfbff"
+        },
+        "200": {
+          "name": "Night Sky/200",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(207,216,247)",
+          "hex": "#cfd8f7",
+          "opacity": 1,
+          "hex8": "#cfd8f7ff"
+        },
+        "300": {
+          "name": "Night Sky/300",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(177,188,233)",
+          "hex": "#b1bce9",
+          "opacity": 1,
+          "hex8": "#b1bce9ff"
+        },
+        "400": {
+          "name": "Night Sky/400",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(147,159,211)",
+          "hex": "#939fd3",
+          "opacity": 1,
+          "hex8": "#939fd3ff"
+        },
+        "500": {
+          "name": "Night Sky/500",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(103,115,176)",
+          "hex": "#6773b0",
+          "opacity": 1,
+          "hex8": "#6773b0ff"
+        },
+        "600": {
+          "name": "Night Sky/600",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(79,90,156)",
+          "hex": "#4f5a9c",
+          "opacity": 1,
+          "hex8": "#4f5a9cff"
+        },
+        "700": {
+          "name": "Night Sky/700",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(54,64,131)",
+          "hex": "#364083",
+          "opacity": 1,
+          "hex8": "#364083ff"
+        },
+        "800": {
+          "name": "Night Sky/800",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(34,42,105)",
+          "hex": "#222a69",
+          "opacity": 1,
+          "hex8": "#222a69ff"
+        },
+        "900": {
+          "name": "Night Sky/900",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(20,19,101)",
+          "hex": "#141365",
+          "opacity": 1,
+          "hex8": "#141365ff"
+        }
+      },
+      "Neon Mauve": {
+        "25": {
+          "name": "Neon Mauve/25",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(255,250,251)",
+          "hex": "#fffafb",
+          "opacity": 1,
+          "hex8": "#fffafbff"
+        },
+        "50": {
+          "name": "Neon Mauve/50",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(255,242,244)",
+          "hex": "#fff2f4",
+          "opacity": 1,
+          "hex8": "#fff2f4ff"
+        },
+        "100": {
+          "name": "Neon Mauve/100",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(254,221,224)",
+          "hex": "#fedde0",
+          "opacity": 1,
+          "hex8": "#fedde0ff"
+        },
+        "200": {
+          "name": "Neon Mauve/200",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(253,188,199)",
+          "hex": "#fdbcc7",
+          "opacity": 1,
+          "hex8": "#fdbcc7ff"
+        },
+        "300": {
+          "name": "Neon Mauve/300",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(251,154,180)",
+          "hex": "#fb9ab4",
+          "opacity": 1,
+          "hex8": "#fb9ab4ff"
+        },
+        "400": {
+          "name": "Neon Mauve/400",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(247,128,172)",
+          "hex": "#f780ac",
+          "opacity": 1,
+          "hex8": "#f780acff"
+        },
+        "500": {
+          "name": "Neon Mauve/500",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(242,87,160)",
+          "hex": "#f257a0",
+          "opacity": 1,
+          "hex8": "#f257a0ff"
+        },
+        "600": {
+          "name": "Neon Mauve/600",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(208,63,146)",
+          "hex": "#d03f92",
+          "opacity": 1,
+          "hex8": "#d03f92ff"
+        },
+        "700": {
+          "name": "Neon Mauve/700",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(174,43,131)",
+          "hex": "#ae2b83",
+          "opacity": 1,
+          "hex8": "#ae2b83ff"
+        },
+        "800": {
+          "name": "Neon Mauve/800",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(140,27,114)",
+          "hex": "#8c1b72",
+          "opacity": 1,
+          "hex8": "#8c1b72ff"
+        },
+        "900": {
+          "name": "Neon Mauve/900",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(116,16,103)",
+          "hex": "#741067",
+          "opacity": 1,
+          "hex8": "#741067ff"
+        }
+      },
+      "Fuschia": {
+        "25": {
+          "name": "Fuschia/25",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(254,246,251)",
+          "hex": "#fef6fb",
+          "opacity": 1,
+          "hex8": "#fef6fbff"
+        },
+        "50": {
+          "name": "Fuschia/50",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(253,242,250)",
+          "hex": "#fdf2fa",
+          "opacity": 1,
+          "hex8": "#fdf2faff"
+        },
+        "100": {
+          "name": "Fuschia/100",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(252,231,246)",
+          "hex": "#fce7f6",
+          "opacity": 1,
+          "hex8": "#fce7f6ff"
+        },
+        "200": {
+          "name": "Fuschia/200",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(252,206,238)",
+          "hex": "#fcceee",
+          "opacity": 1,
+          "hex8": "#fcceeeff"
+        },
+        "300": {
+          "name": "Fuschia/300",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(250,167,224)",
+          "hex": "#faa7e0",
+          "opacity": 1,
+          "hex8": "#faa7e0ff"
+        },
+        "400": {
+          "name": "Fuschia/400",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(246,112,199)",
+          "hex": "#f670c7",
+          "opacity": 1,
+          "hex8": "#f670c7ff"
+        },
+        "500": {
+          "name": "Fuschia/500",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(238,70,188)",
+          "hex": "#ee46bc",
+          "opacity": 1,
+          "hex8": "#ee46bcff"
+        },
+        "600": {
+          "name": "Fuschia/600",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(221,37,144)",
+          "hex": "#dd2590",
+          "opacity": 1,
+          "hex8": "#dd2590ff"
+        },
+        "700": {
+          "name": "Fuschia/700",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(193,21,116)",
+          "hex": "#c11574",
+          "opacity": 1,
+          "hex8": "#c11574ff"
+        },
+        "800": {
+          "name": "Fuschia/800",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(158,22,95)",
+          "hex": "#9e165f",
+          "opacity": 1,
+          "hex8": "#9e165fff"
+        },
+        "900": {
+          "name": "Fuschia/900",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(133,22,81)",
+          "hex": "#851651",
+          "opacity": 1,
+          "hex8": "#851651ff"
+        }
+      },
+      "Orange": {
+        "25": {
+          "name": "Orange/25",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(255,250,245)",
+          "hex": "#fffaf5",
+          "opacity": 1,
+          "hex8": "#fffaf5ff"
+        },
+        "50": {
+          "name": "Orange/50",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(255,246,237)",
+          "hex": "#fff6ed",
+          "opacity": 1,
+          "hex8": "#fff6edff"
+        },
+        "100": {
+          "name": "Orange/100",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(255,234,213)",
+          "hex": "#ffead5",
+          "opacity": 1,
+          "hex8": "#ffead5ff"
+        },
+        "200": {
+          "name": "Orange/200",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(253,220,171)",
+          "hex": "#fddcab",
+          "opacity": 1,
+          "hex8": "#fddcabff"
+        },
+        "300": {
+          "name": "Orange/300",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(254,178,115)",
+          "hex": "#feb273",
+          "opacity": 1,
+          "hex8": "#feb273ff"
+        },
+        "400": {
+          "name": "Orange/400",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(253,133,58)",
+          "hex": "#fd853a",
+          "opacity": 1,
+          "hex8": "#fd853aff"
+        },
+        "500": {
+          "name": "Orange/500",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(251,101,20)",
+          "hex": "#fb6514",
+          "opacity": 1,
+          "hex8": "#fb6514ff"
+        },
+        "600": {
+          "name": "Orange/600",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(236,74,10)",
+          "hex": "#ec4a0a",
+          "opacity": 1,
+          "hex8": "#ec4a0aff"
+        },
+        "700": {
+          "name": "Orange/700",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(196,50,10)",
+          "hex": "#c4320a",
+          "opacity": 1,
+          "hex8": "#c4320aff"
+        },
+        "800": {
+          "name": "Orange/800",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(156,42,16)",
+          "hex": "#9c2a10",
+          "opacity": 1,
+          "hex8": "#9c2a10ff"
+        },
+        "900": {
+          "name": "Orange/900",
+          "type": "SOLID",
+          "blendMode": "NORMAL",
+          "description": "",
+          "rgb": "rgb(126,36,16)",
+          "hex": "#7e2410",
+          "opacity": 1,
+          "hex8": "#7e2410ff"
+        }
+      }
+    },
+    "linearGradient": {
+      "Gradient": {
+        "Primary": {
+          "900 -> 600 (45deg)": {
+            "name": "Gradient/Primary/900 -> 600 (45deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #002c43 0%, #026e78 100%)"
+          },
+          "800 -> 700 (26.5deg)": {
+            "name": "Gradient/Primary/800 -> 700 (26.5deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(27deg, #003c51 0%, #015364 100%)"
+          },
+          "800 -> 600 (90 deg)": {
+            "name": "Gradient/Primary/800 -> 600 (90 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(63deg, #003c51 0%, #026e78 100%)"
+          }
+        },
+        "Horizon Blue": {
+          "800 -> 600 (90 deg)": {
+            "name": "Gradient/Horizon Blue/800 -> 600 (90 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(63deg, #03688c 0%, #08bed0 100%)"
+          }
+        },
+        "Neon Mauve": {
+          "900 -> 600 (45 deg)": {
+            "name": "Gradient/Neon Mauve/900 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #741067 0%, #d03f92 100%)"
+          },
+          "600 -> 500 (90 deg)": {
+            "name": "Gradient/Neon Mauve/600 -> 500 (90 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(90deg, #d03f92 0%, #f257a0 100%)"
+          }
+        }
+      },
+      "Gradient ": {
+        " Primary ": {
+          " 700 -> 600 (45 deg)": {
+            "name": "Gradient / Primary / 700 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #015364 0%, #026e78 100%)"
+          },
+          " 600 -> 500 (90 deg)": {
+            "name": "Gradient / Primary / 600 -> 500 (90 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(90deg, #026e78 0%, #038c8c 100%)"
+          },
+          " 800 -> 600 (45 deg)": {
+            "name": "Gradient / Primary / 800 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #003c51 0%, #026e78 100%)"
+          }
+        },
+        " Fram purple ": {
+          " 900 -> 600 (45 deg)": {
+            "name": "Gradient / Fram purple / 900 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #141365 0%, #4c4ab6 100%)"
+          },
+          " 800 -> 700 (26,5 deg)": {
+            "name": "Gradient / Fram purple / 800 -> 700 (26,5 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(27deg, #21207a 0%, #343398 100%)"
+          },
+          " 800 -> 600 (90 deg)": {
+            "name": "Gradient / Fram purple / 800 -> 600 (90 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #21207a 0%, #4c4ab6 100%)"
+          },
+          " 700 -> 600 (45 deg)": {
+            "name": "Gradient / Fram purple / 700 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #343398 0%, #4c4ab6 100%)"
+          },
+          " 600 -> 500 (90 deg)": {
+            "name": "Gradient / Fram purple / 600 -> 500 (90 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(90deg, #4c4ab6 0%, #6866d4 100%)"
+          }
+        },
+        " Sea Green ": {
+          " 900 -> 600 (45 deg)": {
+            "name": "Gradient / Sea Green / 900 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #00525b 0%, #02a486 100%)"
+          },
+          " 800 -> 600 (45 deg)": {
+            "name": "Gradient / Sea Green / 800 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #016d6e 0%, #02a486 100%)"
+          },
+          " 700 -> 600 (45 deg)": {
+            "name": "Gradient / Sea Green / 700 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #02897d 0%, #02a486 100%)"
+          },
+          " 600 -> 500 (90 deg)": {
+            "name": "Gradient / Sea Green / 600 -> 500 (90 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(90deg, #02a486 0%, #04bf8a 100%)"
+          }
+        },
+        " Sea Green": {
+          " 800 -> 700 (26,5 deg)": {
+            "name": "Gradient / Sea Green/ 800 -> 700 (26,5 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(27deg, #016d6e 0%, #02897d 100%)"
+          },
+          " 800 -> 600 (90 deg)": {
+            "name": "Gradient / Sea Green/ 800 -> 600 (90 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(63deg, #016d6e 0%, #02a486 100%)"
+          }
+        },
+        " Horizon Blue": {
+          " 900 -> 600 (45 deg)": {
+            "name": "Gradient / Horizon Blue/ 900 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #024c74 0%, #08bed0 100%)"
+          },
+          " 800 -> 600 (45 deg)": {
+            "name": "Gradient / Horizon Blue/ 800 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #03688c 0%, #08bed0 100%)"
+          },
+          " 600 -> 00 (90 deg)": {
+            "name": "Gradient / Horizon Blue/ 600 -> 00 (90 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(90deg, #08bed0 0%, #0cf2f2 100%)"
+          }
+        },
+        " Horizon Blue ": {
+          " 800 -> 700 (26,5 deg)": {
+            "name": "Gradient / Horizon Blue / 800 -> 700 (26,5 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(27deg, #03688c 0%, #0691ae 100%)"
+          },
+          " 700 -> 600 (45 deg)": {
+            "name": "Gradient / Horizon Blue / 700 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #0691ae 0%, #08bed0 100%)"
+          }
+        },
+        " Purple ": {
+          " 900 -> 600 (45 deg)": {
+            "name": "Gradient / Purple / 900 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #3e1c96 0%, #6938ef 100%)"
+          },
+          " 800 -> 700 (26,5 deg)": {
+            "name": "Gradient / Purple / 800 -> 700 (26,5 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(27deg, #4a1fb8 0%, #5925dc 100%)"
+          },
+          " 800 -> 600 (90 deg)": {
+            "name": "Gradient / Purple / 800 -> 600 (90 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(63deg, #4a1fb8 0%, #6938ef 100%)"
+          },
+          " 800 -> 600 (45 deg)": {
+            "name": "Gradient / Purple / 800 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #4a1fb8 0%, #6938ef 100%)"
+          },
+          " 700 -> 600 (45 deg)": {
+            "name": "Gradient / Purple / 700 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #5925dc 0%, #6938ef 100%)"
+          },
+          " 600 -> 500 (90 deg)": {
+            "name": "Gradient / Purple / 600 -> 500 (90 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(90deg, #6938ef 0%, #7a5af8 100%)"
+          }
+        },
+        " Indigo ": {
+          " 900 -> 600 (45 deg)": {
+            "name": "Gradient / Indigo / 900 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #000b2a 0%, #011e4c 100%)"
+          },
+          " 800 -> 600 (90 deg)": {
+            "name": "Gradient / Indigo / 800 -> 600 (90 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(63deg, #001033 0%, #011e4c 100%)"
+          },
+          " 800 -> 600 (45 deg)": {
+            "name": "Gradient / Indigo / 800 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #001033 0%, #011e4c 100%)"
+          },
+          " 700 -> 600 (45 deg)": {
+            "name": "Gradient / Indigo / 700 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #011640 0%, #011e4c 100%)"
+          },
+          " 600 -> 500 (90 deg)": {
+            "name": "Gradient / Indigo / 600 -> 500 (90 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(90deg, #011e4c 0%, #022859 100%)"
+          }
+        },
+        " Indigo": {
+          " 800 -> 700 (26,5 deg)": {
+            "name": "Gradient / Indigo/ 800 -> 700 (26,5 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(27deg, #001033 0%, #011640 100%)"
+          }
+        },
+        " Night Sky ": {
+          " 900 -> 600 (45 deg)": {
+            "name": "Gradient / Night Sky / 900 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #141365 0%, #4f5a9c 100%)"
+          },
+          " 800 -> 700 (26,5 deg)": {
+            "name": "Gradient / Night Sky / 800 -> 700 (26,5 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(27deg, #222a69 0%, #364083 100%)"
+          },
+          " 800 -> 600 (90 deg)": {
+            "name": "Gradient / Night Sky / 800 -> 600 (90 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(63deg, #222a69 0%, #4f5a9c 100%)"
+          },
+          " 800 -> 600 (45 deg)": {
+            "name": "Gradient / Night Sky / 800 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #222a69 0%, #4f5a9c 100%)"
+          },
+          " 700 -> 600 (45 deg)": {
+            "name": "Gradient / Night Sky / 700 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #364083 0%, #4f5a9c 100%)"
+          },
+          " 600 -> 500 (90 deg)": {
+            "name": "Gradient / Night Sky / 600 -> 500 (90 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(90deg, #4f5a9c 0%, #6773b0 100%)"
+          }
+        },
+        " Neon Mauve ": {
+          " 800 -> 700 (26,5 deg)": {
+            "name": "Gradient / Neon Mauve / 800 -> 700 (26,5 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(27deg, #8c1b72 0%, #ae2b83 100%)"
+          },
+          " 800 -> 600 (90 deg)": {
+            "name": "Gradient / Neon Mauve / 800 -> 600 (90 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(63deg, #8c1b72 0%, #d03f92 100%)"
+          },
+          " 800 -> 600 (45 deg)": {
+            "name": "Gradient / Neon Mauve / 800 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #8c1b72 0%, #d03f92 100%)"
+          },
+          " 700 -> 600 (45 deg)": {
+            "name": "Gradient / Neon Mauve / 700 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #ae2b83 0%, #d03f92 100%)"
+          }
+        },
+        " Fuschia ": {
+          " 900 -> 600 (45 deg)": {
+            "name": "Gradient / Fuschia / 900 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #851651 0%, #dd2590 100%)"
+          },
+          " 800 -> 700 (26,5 deg)": {
+            "name": "Gradient / Fuschia / 800 -> 700 (26,5 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(27deg, #9e165f 0%, #c11574 100%)"
+          },
+          " 800 -> 600 (90 deg)": {
+            "name": "Gradient / Fuschia / 800 -> 600 (90 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(63deg, #9e165f 0%, #dd2590 100%)"
+          },
+          " 800 -> 600 (45 deg)": {
+            "name": "Gradient / Fuschia / 800 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #9e165f 0%, #dd2590 100%)"
+          },
+          " 700 -> 600 (45 deg)": {
+            "name": "Gradient / Fuschia / 700 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #c11574 0%, #d03f92 100%, #dd2590 100%)"
+          },
+          " 600 -> 500 (90 deg)": {
+            "name": "Gradient / Fuschia / 600 -> 500 (90 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(90deg, #dd2590 0%, #ee46bc 100%)"
+          }
+        },
+        " Orange ": {
+          " 900 -> 600 (45 deg)": {
+            "name": "Gradient / Orange / 900 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #7e2410 0%, #ec4a0a 100%)"
+          },
+          " 800 -> 700 (26,5 deg)": {
+            "name": "Gradient / Orange / 800 -> 700 (26,5 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(27deg, #9c2a10 0%, #c4320a 100%)"
+          },
+          " 800 -> 600 (45 deg)": {
+            "name": "Gradient / Orange / 800 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #9c2a10 0%, #ec4a0a 100%)"
+          },
+          " 700 -> 600 (45 deg)": {
+            "name": "Gradient / Orange / 700 -> 600 (45 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(45deg, #c4320a 0%, #ec4a0a 100%)"
+          },
+          " 600 -> 500 (90 deg)": {
+            "name": "Gradient / Orange / 600 -> 500 (90 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(90deg, #ec4a0a 0%, #fb6514 100%)"
+          }
+        },
+        " Orange": {
+          " 800 -> 600 (90 deg)": {
+            "name": "Gradient / Orange/ 800 -> 600 (90 deg)",
+            "type": "GRADIENT_LINEAR",
+            "blendMode": "NORMAL",
+            "description": "",
+            "opacity": 1,
+            "gradient": "linear-gradient(63deg, #9c2a10 0%, #ec4a0a 100%)"
+          }
+        }
+      }
+    }
+  },
+  "effectStyle": {
+    "shadow": {
+      "Focus ring": {
+        "4 px success- 100": {
+          "name": "Focus ring/4 px success- 100",
+          "description": "",
+          "type": "SHADOW",
+          "boxShadow": "0px 0px 0px 4px 4px #e6fbc7, 0px 1px 2px 0px 0px rgba(16,24,40,0.05);"
+        },
+        "4px primary-100": {
+          "name": "Focus ring/4px primary-100",
+          "description": "",
+          "type": "SHADOW",
+          "boxShadow": "0px 0px 0px 4px 4px #c8f9e8"
+        },
+        "4px grey-100": {
+          "name": "Focus ring/4px grey-100",
+          "description": "",
+          "type": "SHADOW",
+          "boxShadow": "0px 0px 0px 4px 4px #f2f4f7"
+        },
+        "4px error-100": {
+          "name": "Focus ring/4px error-100",
+          "description": "",
+          "type": "SHADOW",
+          "boxShadow": "0px 0px 0px 4px 4px #fee4e2"
+        }
+      },
+      "Focus ring ": {
+        " 4px grey-600": {
+          "name": "Focus ring / 4px grey-600",
+          "description": "",
+          "type": "SHADOW",
+          "boxShadow": "0px 0px 0px 4px 4px #475467"
+        },
+        " 4px primary-600": {
+          "name": "Focus ring / 4px primary-600",
+          "description": "",
+          "type": "SHADOW",
+          "boxShadow": "0px 0px 0px 4px 4px #7f56d9"
+        }
+      },
+      "Shadow": {
+        "Elevation 1": {
+          "E 1 Rest state": {
+            "name": "Shadow/Elevation 1/E 1 Rest state",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 1px 2px 0px 0px rgba(16,24,40,0.05)"
+          },
+          "E1 Hover state": {
+            "name": "Shadow/Elevation 1/E1 Hover state",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 1px 2px 0px 0px rgba(16,24,40,0.15), 0px 0px 0px 1px 1px rgba(16,24,40,0.20);"
+          },
+          "E 1 Focused state": {
+            "name": "Shadow/Elevation 1/E 1 Focused state",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 1px 2px 0px 0px rgba(16,24,40,0.05), 0px 0px 0px 4px 4px #c8f9e8;"
+          },
+          "E1 Focused state 4px Primary-200": {
+            "name": "Shadow/Elevation 1/E1 Focused state 4px Primary-200",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 0px 0px 4px 4px #94f3da, 0px 1px 2px 0px 0px rgba(16,24,40,0.05);"
+          },
+          "E1 Focused state 4px Grey-100": {
+            "name": "Shadow/Elevation 1/E1 Focused state 4px Grey-100",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 0px 0px 4px 4px #f2f4f7, 0px 1px 2px 0px 0px rgba(16,24,40,0.05);"
+          },
+          "E1 Focused state 4px Error-100": {
+            "name": "Shadow/Elevation 1/E1 Focused state 4px Error-100",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 0px 0px 4px 4px #fee4e2, 0px 1px 2px 0px 0px rgba(16,24,40,0.05);"
+          }
+        },
+        "Elevation 2": {
+          "E2 Rest state": {
+            "name": "Shadow/Elevation 2/E2 Rest state",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 1px 8px 0px 0px rgba(16,24,40,0.06), 0px 1px 10px 0px 0px rgba(16,24,40,0.10);"
+          },
+          "E2 Hover state": {
+            "name": "Shadow/Elevation 2/E2 Hover state",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 0px 0px 1px 1px rgba(16,24,40,0.20), 0px 1px 8px 0px 0px rgba(16,24,40,0.06), 0px 1px 6px 0px 0px rgba(16,24,40,0.20);"
+          },
+          "E2 Focused state": {
+            "name": "Shadow/Elevation 2/E2 Focused state",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 0px 0px 4px 4px #c8f9e8, 0px 1px 8px 0px 0px rgba(16,24,40,0.06), 0px 1px 10px 0px 0px rgba(16,24,40,0.10);"
+          },
+          "E2 Focused state 4px Primary-100": {
+            "name": "Shadow/Elevation 2/E2 Focused state 4px Primary-100",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 0px 0px 4px 4px #f4ebff, 0px 1px 2px 0px 0px rgba(16,24,40,0.06), 0px 1px 3px 0px 0px rgba(16,24,40,0.10);"
+          },
+          "E2 Focused state 4px grey-100": {
+            "name": "Shadow/Elevation 2/E2 Focused state 4px grey-100",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 0px 0px 4px 4px #f2f4f7, 0px 1px 2px 0px 0px rgba(16,24,40,0.06), 0px 1px 3px 0px 0px rgba(16,24,40,0.10);"
+          }
+        },
+        "Elevation 3": {
+          "E3 Rest state": {
+            "name": "Shadow/Elevation 3/E3 Rest state",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "20px 8px 20px -2px -2px rgba(16,24,40,0.06), 0px 4px 20px -10px -10px rgba(16,24,40,0.10);"
+          },
+          "E3 Hover state": {
+            "name": "Shadow/Elevation 3/E3 Hover state",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 2px 4px -2px -2px rgba(16,24,40,0.06), 0px 4px 10px -2px -2px rgba(16,24,40,0.20), 0px 0px 0px 1px 1px rgba(16,24,40,0.20);"
+          },
+          "E3 Focused state": {
+            "name": "Shadow/Elevation 3/E3 Focused state",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 0px 0px 4px 4px #c8f9e8, 0px 2px 4px -2px -2px rgba(16,24,40,0.06), 0px 4px 20px -10px -10px rgba(16,24,40,0.10);"
+          }
+        },
+        "Elevation 4": {
+          "E4 Rest state": {
+            "name": "Shadow/Elevation 4/E4 Rest state",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 4px 6px -2px -2px rgba(16,24,40,0.05), 0px 12px 16px -4px -4px rgba(16,24,40,0.10);"
+          },
+          "E4 Hover state": {
+            "name": "Shadow/Elevation 4/E4 Hover state",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 0px 0px 1px 1px rgba(16,24,40,0.20), 0px 4px 6px -2px -2px rgba(16,24,40,0.05), 0px 12px 16px -4px -4px rgba(16,24,40,0.20);"
+          },
+          "E4 Focused state": {
+            "name": "Shadow/Elevation 4/E4 Focused state",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 0px 0px 4px 4px #c8f9e8, 0px 4px 6px -2px -2px rgba(16,24,40,0.05), 0px 12px 16px -4px -4px rgba(16,24,40,0.10);"
+          }
+        },
+        "Elevation 5": {
+          "E5 Rest state": {
+            "name": "Shadow/Elevation 5/E5 Rest state",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 8px 8px -4px -4px rgba(16,24,40,0.04), 0px 20px 24px -4px -4px rgba(16,24,40,0.10);"
+          },
+          "E5 Hover state": {
+            "name": "Shadow/Elevation 5/E5 Hover state",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 0px 0px 1px 1px rgba(16,24,40,0.20), 0px 8px 8px -4px -4px rgba(16,24,40,0.04), 0px 20px 24px -4px -4px rgba(16,24,40,0.20);"
+          },
+          "E5 Focused state": {
+            "name": "Shadow/Elevation 5/E5 Focused state",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 8px 8px -4px -4px rgba(16,24,40,0.04), 0px 20px 24px -4px -4px rgba(16,24,40,0.10), 0px 0px 0px 4px 4px #c8f9e8;"
+          }
+        },
+        "Elevation 6": {
+          "E6 Rest state": {
+            "name": "Shadow/Elevation 6/E6 Rest state",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 24px 48px -12px -12px rgba(16,24,40,0.25)"
+          },
+          "E6 Hover state": {
+            "name": "Shadow/Elevation 6/E6 Hover state",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 0px 0px 1px 1px rgba(16,24,40,0.20), 0px 24px 48px -12px -12px rgba(16,24,40,0.35);"
+          },
+          "E6 Focused state": {
+            "name": "Shadow/Elevation 6/E6 Focused state",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 0px 0px 4px 4px #c8f9e8, 0px 24px 48px -12px -12px rgba(16,24,40,0.25);"
+          }
+        },
+        "Elevation 7": {
+          "E7 Rest state": {
+            "name": "Shadow/Elevation 7/E7 Rest state",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 32px 74px -12px -12px rgba(16,24,40,0.20)"
+          },
+          "E7 Hover state": {
+            "name": "Shadow/Elevation 7/E7 Hover state",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 0px 0px 1px 1px rgba(16,24,40,0.20), 0px 32px 74px -12px -12px rgba(16,24,40,0.30);"
+          },
+          "E7 Focused state": {
+            "name": "Shadow/Elevation 7/E7 Focused state",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 0px 0px 4px 4px #c8f9e8, 0px 32px 74px -12px -12px rgba(16,24,40,0.20);"
+          }
+        },
+        "Portfolio mockup": {
+          "Main centre lg": {
+            "name": "Shadow/Portfolio mockup/Main centre lg",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "0px 100px 200px 0px 0px rgba(52,64,84,0.18)"
+          },
+          "Overlay right lg": {
+            "name": "Shadow/Portfolio mockup/Overlay right lg",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "-100px 100px 150px 0px 0px rgba(52,64,84,0.12)"
+          },
+          "Overlay left lg": {
+            "name": "Shadow/Portfolio mockup/Overlay left lg",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "100px 100px 150px 0px 0px rgba(52,64,84,0.12)"
+          },
+          "Grid shadow md": {
+            "name": "Shadow/Portfolio mockup/Grid shadow md",
+            "description": "",
+            "type": "SHADOW",
+            "boxShadow": "32px 32px 64px 0px 0px rgba(52,64,84,0.08)"
+          }
+        }
+      }
+    },
+    "backgroundBlur": {
+      "Background blur": {
+        "Small ": {
+          "name": "Background blur/Small ",
+          "description": "",
+          "type": "BACKGROUND_BLUR",
+          "backdropFilter": "blur(4px)"
+        },
+        "Medium": {
+          "name": "Background blur/Medium",
+          "description": "",
+          "type": "BACKGROUND_BLUR",
+          "backdropFilter": "blur(8px)"
+        },
+        "Large": {
+          "name": "Background blur/Large",
+          "description": "",
+          "type": "BACKGROUND_BLUR",
+          "backdropFilter": "blur(12px)"
+        },
+        "Extra Large": {
+          "name": "Background blur/Extra Large",
+          "description": "",
+          "type": "BACKGROUND_BLUR",
+          "backdropFilter": "blur(20px)"
+        }
+      }
+    }
+  }
+}
